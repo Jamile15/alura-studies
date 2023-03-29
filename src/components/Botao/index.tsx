@@ -1,9 +1,10 @@
 import React from "react";
+import './style.css';
 
 class Botao extends React.Component{
   render () {
     return(
-        <button> botão</button>
+        <button className="botao"> Botão</button>
     )
   }
 }
