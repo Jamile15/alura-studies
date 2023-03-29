@@ -1,10 +1,10 @@
 import React from "react";
-import './style.css';
+import style from './Botao.module.css';
 
 class Botao extends React.Component{
   render () {
     return(
-        <button className="botao"> Botão</button>
+        <button className={style.botao}> Botão</button>
     )
   }
 }
