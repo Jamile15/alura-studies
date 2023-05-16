@@ -1,16 +1,23 @@
 import React from "react";
 import Botao from "../Botao";
 import style from './Formulario.module.scss';
+import { GenericHTMLFormElement } from "axios";
 
 class Formulario extends React.Component {
     state = {
         tarefa: "",
         tempo: "00:00"
     }
+
+    adicionarTarefa(evento: React.FormEvent<GenericHTMLFormElement>) {
+        evento.preventDefault();
+        console.log('state:', this.state)
+    }
+
     render() {
         
         return (
-            <form className={style.novaTarefa}>
+            <form className={style.novaTarefa} onSubmit={this.adicionarTarefa.bind(this)}>
 
                 <div className={style.inputContainer}>
                     <label htmlFor="tarefa">
