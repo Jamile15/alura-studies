@@ -1,26 +1,11 @@
-import React, {useState} from 'react';
-import Formulario from './components/Formulario';
-import Lista from './components/Lista';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './pages/App';
 
-function App() {
-  const [tarefas, setTarefas] = useState(
-    [{
-        tarefa: 'React',
-        tempo: '02:00:00'
-      }, {
-        tarefa: 'Javascript',
-        tempo: '01:00:00'
-      }, {
-        tarefa: "Typescript",
-        tempo: "03:00:00"
-      }]);
-
-  return (
-    <div className="App">
-      <Formulario setTarefas={setTarefas}/>
-      <Lista tarefas={tarefas}/>
-    </div>
-  );
-}
-
-export default App;
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
