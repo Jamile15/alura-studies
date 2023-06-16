@@ -1,3 +1,25 @@
+# Projeto Alura Studies
+
+![image](https://github.com/Jamile15/alura-studies/assets/112087958/7020f031-976c-4d5b-9fb8-f174ecd6b072)
+
+Projeto Alura Studs foi executado em TypeScript para gerenciar tarefas. O projeto tem a função de criar cards com tempo definido para cada tarefa, onde o usuário pode estipular quanto tempo gastar na tarefa. Ao clicar no card, o tempo é exibido no cronômetro. Ao clicar em "Começar", o cronômetro é ativado. Após a conclusão da tarefa, o card fica verde com um símbolo de verificado.
+
+## Como executar o projeto
+
+1. Clone o repositório.
+2. Instale as dependências com o comando `yarn install`.
+3. Execute o projeto com o comando `yarn start`.
+
+## Tecnologias utilizadas
+
+- React
+- TypeScript
+- CSS Modules
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -48,5 +70,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-![image](https://github.com/Jamile15/alura-studies/assets/112087958/1e1b8766-2b9f-4424-bfbd-7bb41ce6f9dc)
 
